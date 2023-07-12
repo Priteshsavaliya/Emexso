@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- font awesome CSS -->
+	<link href="css/all.css" rel="stylesheet">
+	<!-- Animation CSS -->
+	<link href="css/animate.css" rel="stylesheet">
+	<!-- style CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+<header>  
+<div class="container">
+	<div class="font2  d-flex align-self-center">
+		<ul class="d-flex w-75 header1 p-3">
+			<li>
+				<i class="fa-solid fa-phone"></i> Call Us: +98 54321 67890
+			</li>
+			
+			<li>
+				<i class="fa-solid fa-envelope"></i> Email Us: support@example.com
+			</li>
+		</ul>
+		
+		<ul class="d-flex social align-self-center text-center w-25 justify-content-end">
+			<li class="pe-3 ">
+				<a href="#">
+					<i class="fa-brands fa-facebook-f"></i>
+				</a>
+			</li>
+			
+			<li class="pe-3">
+				<a href="#">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+			</li>
+			
+			<li class="pe-3">
+				<a href="#">
+					<i class="fa-brands fa-linkedin-in"></i>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class="fa-brands fa-pinterest"></i>
+				</a>
+			</li> 
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+	<div class="d-flex w-auto header2 justify-content-between"> 
+		<a href="#">
+			<img src="img/logo.png" alt="" title=""/>
+		</a>
+		
+		<ul class="d-flex w-auto align-self-center fs18"> 
+			<li>
+				<a href="#">Home</a>
+			</li>
+			
+			<li>
+				<a href="#">Feature</a>
+			</li>
+			
+			<li>
+				<a href="#">Review</a>
+			</li>
+			
+			<li>
+				<a href="#">Product</a>
+			</li>
+			
+			<li>
+				<a href="#">Faq</a>
+			</li>
+			
+			<li>
+				<a href="#">Contect</a>
+			</li>
+		</ul>
+		
+		<button class="btn w-auto fs18">Shop now</button>
+	</div>
+</div>
+</header>
+
+<section class="benner">
+	<div class="container">
+	</div>
+</section>
+
+
+    <!-- Popper and Bootstrap JS -->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+  </body>
+</html>
